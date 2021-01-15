@@ -274,7 +274,6 @@ int main(int argc, char **argv) {
     
     freeBMP(bitmap);
     cudaFree(d_bitmap);
-    free(filter);
     cudaFree(gpu_filter);
 
     return 0;
